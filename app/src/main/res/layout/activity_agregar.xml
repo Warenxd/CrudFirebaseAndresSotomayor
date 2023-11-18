@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregar"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Agregar Nuevo Registro"
+        android:background="#9C27B0"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Inserte un Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="@drawable/rounded"
+        android:id="@+id/nombreAct"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Inserte un Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="@drawable/rounded"
+        android:id="@+id/apellidoAct"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Inserte un Email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/emailAct"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="imgURL"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:hint="Inserte una URL de Imagen"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="18dp"
+        android:textAlignment="center"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/rounded"
+        android:textColor="@color/black"
+        android:id="@+id/imgAct"/>
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Agregar"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/btn_agregar"
+        android:backgroundTint="#9C27B0"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:text="Volver"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/btn_atras"
+        android:backgroundTint="#9C27B0"/>
+
+</LinearLayout>
